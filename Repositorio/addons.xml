@@ -49,7 +49,7 @@
   </extension>
 </addon>
 
-<addon id="repository.repocabrones" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.1" provider-name="Manuel">
+<addon id="repository.repocabrones" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.0" provider-name="Manuel">
     <extension point="xbmc.addon.repository" name="Repositorio Cabrones">
         <info>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml.md5</checksum>
