@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.cabrones"
        name="CABRONES S.A."
-       version="1.0.1"
+       version="1.0.2"
        provider-name="Manuel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -43,7 +43,7 @@
 	[COLOR red]Cualquier duda en el grupo[/COLOR]
     </news>
 	
-    <description>Addons de Peliculas, series, canales de TV, infantil y adultos (con bloqueo por pin en zonas de adutos)</description>
+    <description>Addons de Peliculas, series, canales de TV, infantil y adultos (con bloqueo por pin en zonas de adultos)</description>
     <platform>all</platform>
   </extension>
 </addon>
