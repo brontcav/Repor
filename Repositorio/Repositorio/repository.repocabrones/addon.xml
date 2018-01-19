@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.repocabrones" name="[COLOR lime]Repositorio[/COLOR] Cabrones" version="1.0.1" provider-name="Manuel">
+    <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/xxxxxxxxxxxx/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio Cabrones</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
