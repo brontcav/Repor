@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.cabrones"
+       name="CABRONES S.A."
+       version="1.0.2"
+       provider-name="Manuel">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="Repositorio cabrones">
+        <info>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por Manuel y Saul</summary><assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
+	  [COLOR blue][B]Activado control parental[/B][/COLOR]
+	  La zona de adultos esta con contraseña, antes de entrar al addons en opciones podeis quitar el control parental para la sección adultos, para poder verlo pulsación encima del canal y habilitar, para eso se necesita password, una pista son números y cuenta los dedos de una mano.
+	  [BR]Dar un paso atras y volveis para que haga efecto.[BR][COLOR red]
+	  Cualquier duda en el grupo de telegram https://t.me/noosdigomas[/COLOR]
+    </news>
+	
+    <description>Addons de Peliculas, series, canales de TV, infantil y adultos (con bloqueo por pin en zonas de adutos)</description>
+    <platform>all</platform>
+  </extension>
+</addon>
