@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.cabrones"
        name="CABRONES S.A."
        version="1.0.3"
@@ -15,18 +14,13 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  <extension point="xbmc.addon.repository" name="Repositorio cabrones">
-        <info>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/</datadir>
-    </extension>
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por Manuel y Saul</summary><assets>
@@ -36,28 +30,14 @@
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
-   <news>[B]Estos son los cambios para esta versión:[/B]
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR blue][B]Activado control parental[/B][/COLOR]
       La zona de adultos esta con contraseña, pedirla en el grupo.
       [COLOR coral]Cualquier duda en el grupo de telegram: https://t.me/noosdigomas[/COLOR]
     </news>
-
+	
     <description>Addons de Peliculas, series, deportes, canales de TV, infantil y adultos (bloqueado por pin adutos)</description>
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="repository.cabrones" name="[COLOR lime]Repositorio[/COLOR] Cabrones" version="1.0.1" provider-name="Manuel">
-    <extension point="xbmc.addon.repository" name="Repositorio cabrones">
-        <info>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para cabrones</summary>
-        <description></description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-</addons>
