@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.cabrones"
        name="CABRONES S.A."
-       version="1.0.2"
+       version="1.0.3"
        provider-name="Manuel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -39,11 +39,11 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR blue][B]Activado control parental[/B][/COLOR]
-      La zona de adultos esta con contraseña,para poder verlo os pedira password, una pista son números y cuenta los dedos de una mano.
-      Cualquier duda en el grupo de telegram https://t.me/noosdigomas[/COLOR]
+      La zona de adultos esta con contraseña, pedirla en el grupo.
+      [COLOR coral]Cualquier duda en el grupo de telegram: https://t.me/noosdigomas[/COLOR]
     </news>
 
-    <description>Addons de Peliculas, series, canales de TV, infantil y adultos (con bloqueado por pin en zonas de adutos)</description>
+    <description>Addons de Peliculas, series, deportes, canales de TV, infantil y adultos (bloqueado por pin adutos)</description>
     <platform>all</platform>
   </extension>
 </addon>
