@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.cabrones"
        name="CABRONES S.A."
-       version="1.0.4"
+       version="1.0.2"
        provider-name="Manuel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -22,8 +22,6 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-
-
   <extension point="xbmc.addon.repository" name="Repositorio cabrones">
         <info>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml.md5</checksum>
@@ -38,18 +36,19 @@
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
-   <news>[B]Estos son los cambios para esta versión:[/B]
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR blue][B]Activado control parental[/B][/COLOR]
-      La zona de adultos esta con contraseña, pedirla en el grupo.
-      [COLOR coral]Cualquier duda en el grupo de telegram: https://t.me/noosdigomas[/COLOR]
+      La zona de adultos esta con contraseña,para poder verlo os pedira password, una pista son números y cuenta los dedos de una mano.
+      Cualquier duda en el grupo de telegram https://t.me/noosdigomas[/COLOR]
     </news>
 
-    <description>Addons de Peliculas, series, deportes, canales de TV, infantil y adultos (bloqueado por pin adutos)</description>
+    <description>Addons de Peliculas, series, canales de TV, infantil y adultos (con bloqueado por pin en zonas de adutos)</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="repository.cabrones" name="[COLOR lime]Repositorio[/COLOR] Cabrones" version="1.0.2" provider-name="Manuel">
+<addon id="repository.cabrones" name="[COLOR lime]Repositorio[/COLOR] Cabrones" version="1.0.1" provider-name="Manuel">
     <extension point="xbmc.addon.repository" name="Repositorio cabrones">
         <info>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml.md5</checksum>
