@@ -21,7 +21,6 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  
   <extension point="xbmc.addon.repository" name="Repositorio Cabrones">
         <info>https://raw.githubusercontent.com/brontcav/Report/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/brontcav/Report/master/Repositorio/addons.xml.md5</checksum>
@@ -36,6 +35,7 @@
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
+	   </assets>
    <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR blue][B]Activado control parental[/B][/COLOR]
       La zona de adultos esta con contraseña, pedirla en el grupo.

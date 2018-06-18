@@ -4,10 +4,10 @@
         <info>https://raw.githubusercontent.com/brontcav/Report/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/brontcav/Report/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/brontcav/Report/master/Repositorio/</datadir>
-    </extension>
+    </extension>	
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio para cabrones</summary>
-        <description></description>
+        <description>Cagon too</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
