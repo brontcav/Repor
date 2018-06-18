@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.cabrones"
        name="CABRONES S.A."
-       version="1.0.6"
+       version="1.0.4"
        provider-name="Manuel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -21,6 +21,11 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+  <extension point="xbmc.addon.repository" name="Repositorio cabrones">
+        <info>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Manuel72/Report/master/Repositorio/</datadir>
+    </extension>
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por Manuel y Saul</summary><assets>
@@ -30,8 +35,7 @@
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
-    </assets>
-      <news>[B]Estos son los cambios para esta versión:[/B]
+   <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR blue][B]Activado control parental[/B][/COLOR]
       La zona de adultos esta con contraseña, pedirla en el grupo.
       [COLOR coral]Cualquier duda en el grupo de telegram: https://t.me/noosdigomas[/COLOR]

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.cabrones"
-       name="CABRONES S.A."
-       version="1.0.6"
-       provider-name="Manuel">
+<addon id="plugin.video.Catoal"
+       name="[COLOR gold]Catoal[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]"
+       version="5.4.0"
+       provider-name="Catoal">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -23,21 +23,8 @@
   </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por Manuel y Saul</summary><assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
-    </assets>
-      <news>[B]Estos son los cambios para esta versión:[/B]
-      [COLOR blue][B]Activado control parental[/B][/COLOR]
-      La zona de adultos esta con contraseña, pedirla en el grupo.
-      [COLOR coral]Cualquier duda en el grupo de telegram: https://t.me/noosdigomas[/COLOR]
-    </news>
-	
-    <description>Addons de Peliculas, series, deportes, canales de TV, infantil y adultos (bloqueado por pin adutos)</description>
+    <summary>Creado por Catoal</summary>
+    <description>Catoal 2017</description>
     <platform>all</platform>
   </extension>
 </addon>
